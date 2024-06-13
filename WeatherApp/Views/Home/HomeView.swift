@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct HomeView<ViewModel: HomeViewModelType>: View {
     
-    @ObservedObject var vm = HomeViewModal()
+    @StateObject var vm: ViewModel
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
