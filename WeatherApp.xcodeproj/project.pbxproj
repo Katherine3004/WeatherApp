@@ -17,6 +17,7 @@
 		CC1D2DE32C18DCED00304CCB /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE22C18DCED00304CCB /* WeatherService.swift */; };
 		CC1D2DE62C18E08300304CCB /* ApiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE52C18E08300304CCB /* ApiErrors.swift */; };
 		CC1D2DE82C18E3D800304CCB /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE72C18E3D800304CCB /* Services.swift */; };
+		CC1D2E062C1B52AF00304CCB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E052C1B52AF00304CCB /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CC1D2DE22C18DCED00304CCB /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		CC1D2DE52C18E08300304CCB /* ApiErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrors.swift; sourceTree = "<group>"; };
 		CC1D2DE72C18E3D800304CCB /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		CC1D2E052C1B52AF00304CCB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		CC1D2DB92C18CAEE00304CCB /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC1D2E042C1B52A600304CCB /* Style */,
 				CC1D2DDF2C18DBB800304CCB /* API */,
 				CC1D2DD72C18D96D00304CCB /* Extensions */,
 				CC1D2DD62C18D96600304CCB /* Components */,
@@ -133,6 +136,14 @@
 				CC1D2DE52C18E08300304CCB /* ApiErrors.swift */,
 			);
 			path = APIErrors;
+			sourceTree = "<group>";
+		};
+		CC1D2E042C1B52A600304CCB /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2E052C1B52AF00304CCB /* Color.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				CC1D2DBB2C18CAEE00304CCB /* WeatherAppApp.swift in Sources */,
 				CC1D2DDE2C18D9D700304CCB /* HomeViewModal.swift in Sources */,
 				CC1D2DE12C18DC1900304CCB /* Weather.swift in Sources */,
+				CC1D2E062C1B52AF00304CCB /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
