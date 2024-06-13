@@ -1,5 +1,5 @@
 //
-//  HomeViewModal.swift
+//  HomeViewModel.swift
 //  WeatherApp
 //
 //  Created by Katherine Chambers on 2024/06/11.
@@ -13,7 +13,7 @@ enum HomeViewState {
     case error
 }
 
-protocol HomeViewModalType: ObservableObject {
+protocol HomeViewModelType: ObservableObject {
     
     var weatherResponse: Weather? { get set }
     var state: HomeViewState { get set }
@@ -21,14 +21,18 @@ protocol HomeViewModalType: ObservableObject {
     func fetchWeather(lat: String, long: String)
 }
 
-class HomeViewModal: ObservableObject,  HomeViewModalType {
+class HomeViewModel: ObservableObject,  HomeViewModelType {
     
     @Published var weatherResponse: Weather?
     @Published var state: HomeViewState = .loading
     
-    let services = Services()
+    let services: Services
     
-    init() {
+    weak var coordinator: HomeCoordinator?
+    
+    init(services: Services, coordinator: HomeCoordinator? = nil) {
+        self.services = services
+        self.coordinator = coordinator
         fetchWeather(lat: "-29.85", long: "31.02")
     }
     

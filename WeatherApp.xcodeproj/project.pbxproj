@@ -12,11 +12,21 @@
 		CC1D2DC32C18CAF000304CCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1D2DC22C18CAF000304CCB /* Preview Assets.xcassets */; };
 		CC1D2DD92C18D9A100304CCB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DD82C18D9A100304CCB /* Color+Extension.swift */; };
 		CC1D2DDC2C18D9C100304CCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DDB2C18D9C100304CCB /* HomeView.swift */; };
-		CC1D2DDE2C18D9D700304CCB /* HomeViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DDD2C18D9D700304CCB /* HomeViewModal.swift */; };
+		CC1D2DDE2C18D9D700304CCB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DDD2C18D9D700304CCB /* HomeViewModel.swift */; };
 		CC1D2DE12C18DC1900304CCB /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE02C18DC1900304CCB /* Weather.swift */; };
 		CC1D2DE32C18DCED00304CCB /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE22C18DCED00304CCB /* WeatherService.swift */; };
 		CC1D2DE62C18E08300304CCB /* ApiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE52C18E08300304CCB /* ApiErrors.swift */; };
 		CC1D2DE82C18E3D800304CCB /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE72C18E3D800304CCB /* Services.swift */; };
+		CC1D2E092C1B563500304CCB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E082C1B563500304CCB /* Coordinator.swift */; };
+		CC1D2E0B2C1B572500304CCB /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E0A2C1B572500304CCB /* HomeCoordinator.swift */; };
+		CC1D2E0E2C1B57BD00304CCB /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E0D2C1B57BD00304CCB /* TabController.swift */; };
+		CC1D2E102C1B57FD00304CCB /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E0F2C1B57FD00304CCB /* MapCoordinator.swift */; };
+		CC1D2E122C1B580B00304CCB /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E112C1B580B00304CCB /* ProfileCoordinator.swift */; };
+		CC1D2E152C1B58B300304CCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E142C1B58B300304CCB /* ContentView.swift */; };
+		CC1D2E192C1B591900304CCB /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E182C1B591900304CCB /* ProfileViewModel.swift */; };
+		CC1D2E1B2C1B592100304CCB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E1A2C1B592100304CCB /* ProfileView.swift */; };
+		CC1D2E1D2C1B592900304CCB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E1C2C1B592900304CCB /* MapView.swift */; };
+		CC1D2E1F2C1B593200304CCB /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2E1E2C1B593200304CCB /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +37,21 @@
 		CC1D2DC22C18CAF000304CCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC1D2DD82C18D9A100304CCB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		CC1D2DDB2C18D9C100304CCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		CC1D2DDD2C18D9D700304CCB /* HomeViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModal.swift; sourceTree = "<group>"; };
+		CC1D2DDD2C18D9D700304CCB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CC1D2DE02C18DC1900304CCB /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		CC1D2DE22C18DCED00304CCB /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		CC1D2DE52C18E08300304CCB /* ApiErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrors.swift; sourceTree = "<group>"; };
 		CC1D2DE72C18E3D800304CCB /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		CC1D2E082C1B563500304CCB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CC1D2E0A2C1B572500304CCB /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		CC1D2E0D2C1B57BD00304CCB /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		CC1D2E0F2C1B57FD00304CCB /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
+		CC1D2E112C1B580B00304CCB /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		CC1D2E142C1B58B300304CCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC1D2E182C1B591900304CCB /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		CC1D2E1A2C1B592100304CCB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CC1D2E1C2C1B592900304CCB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CC1D2E1E2C1B593200304CCB /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +84,11 @@
 		CC1D2DB92C18CAEE00304CCB /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC1D2E072C1B561C00304CCB /* Coordinator */,
 				CC1D2DDF2C18DBB800304CCB /* API */,
 				CC1D2DD72C18D96D00304CCB /* Extensions */,
 				CC1D2DD62C18D96600304CCB /* Components */,
 				CC1D2DD42C18D93D00304CCB /* Views */,
-				CC1D2DBA2C18CAEE00304CCB /* WeatherAppApp.swift */,
 				CC1D2DBE2C18CAF000304CCB /* Assets.xcassets */,
 				CC1D2DC02C18CAF000304CCB /* WeatherApp.entitlements */,
 				CC1D2DC12C18CAF000304CCB /* Preview Content */,
@@ -87,6 +107,10 @@
 		CC1D2DD42C18D93D00304CCB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC1D2E172C1B590C00304CCB /* Profile */,
+				CC1D2E162C1B590500304CCB /* Map */,
+				CC1D2E132C1B58A900304CCB /* App */,
+				CC1D2E0C2C1B57AE00304CCB /* TabController */,
 				CC1D2DDA2C18D9B200304CCB /* Home */,
 			);
 			path = Views;
@@ -111,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				CC1D2DDB2C18D9C100304CCB /* HomeView.swift */,
-				CC1D2DDD2C18D9D700304CCB /* HomeViewModal.swift */,
+				CC1D2DDD2C18D9D700304CCB /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -133,6 +157,52 @@
 				CC1D2DE52C18E08300304CCB /* ApiErrors.swift */,
 			);
 			path = APIErrors;
+			sourceTree = "<group>";
+		};
+		CC1D2E072C1B561C00304CCB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2E082C1B563500304CCB /* Coordinator.swift */,
+				CC1D2E0A2C1B572500304CCB /* HomeCoordinator.swift */,
+				CC1D2E0F2C1B57FD00304CCB /* MapCoordinator.swift */,
+				CC1D2E112C1B580B00304CCB /* ProfileCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CC1D2E0C2C1B57AE00304CCB /* TabController */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2E0D2C1B57BD00304CCB /* TabController.swift */,
+			);
+			path = TabController;
+			sourceTree = "<group>";
+		};
+		CC1D2E132C1B58A900304CCB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2DBA2C18CAEE00304CCB /* WeatherAppApp.swift */,
+				CC1D2E142C1B58B300304CCB /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CC1D2E162C1B590500304CCB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2E1C2C1B592900304CCB /* MapView.swift */,
+				CC1D2E1E2C1B593200304CCB /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		CC1D2E172C1B590C00304CCB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2E182C1B591900304CCB /* ProfileViewModel.swift */,
+				CC1D2E1A2C1B592100304CCB /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,12 +277,22 @@
 			files = (
 				CC1D2DE32C18DCED00304CCB /* WeatherService.swift in Sources */,
 				CC1D2DE82C18E3D800304CCB /* Services.swift in Sources */,
+				CC1D2E152C1B58B300304CCB /* ContentView.swift in Sources */,
 				CC1D2DE62C18E08300304CCB /* ApiErrors.swift in Sources */,
 				CC1D2DDC2C18D9C100304CCB /* HomeView.swift in Sources */,
+				CC1D2E0E2C1B57BD00304CCB /* TabController.swift in Sources */,
 				CC1D2DD92C18D9A100304CCB /* Color+Extension.swift in Sources */,
 				CC1D2DBB2C18CAEE00304CCB /* WeatherAppApp.swift in Sources */,
-				CC1D2DDE2C18D9D700304CCB /* HomeViewModal.swift in Sources */,
+				CC1D2E1B2C1B592100304CCB /* ProfileView.swift in Sources */,
+				CC1D2E1D2C1B592900304CCB /* MapView.swift in Sources */,
+				CC1D2DDE2C18D9D700304CCB /* HomeViewModel.swift in Sources */,
+				CC1D2E192C1B591900304CCB /* ProfileViewModel.swift in Sources */,
+				CC1D2E122C1B580B00304CCB /* ProfileCoordinator.swift in Sources */,
+				CC1D2E0B2C1B572500304CCB /* HomeCoordinator.swift in Sources */,
+				CC1D2E102C1B57FD00304CCB /* MapCoordinator.swift in Sources */,
 				CC1D2DE12C18DC1900304CCB /* Weather.swift in Sources */,
+				CC1D2E092C1B563500304CCB /* Coordinator.swift in Sources */,
+				CC1D2E1F2C1B593200304CCB /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
