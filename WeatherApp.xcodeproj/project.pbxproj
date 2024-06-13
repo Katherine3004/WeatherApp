@@ -13,6 +13,10 @@
 		CC1D2DD92C18D9A100304CCB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DD82C18D9A100304CCB /* Color+Extension.swift */; };
 		CC1D2DDC2C18D9C100304CCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DDB2C18D9C100304CCB /* HomeView.swift */; };
 		CC1D2DDE2C18D9D700304CCB /* HomeViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DDD2C18D9D700304CCB /* HomeViewModal.swift */; };
+		CC1D2DE12C18DC1900304CCB /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE02C18DC1900304CCB /* Weather.swift */; };
+		CC1D2DE32C18DCED00304CCB /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE22C18DCED00304CCB /* WeatherService.swift */; };
+		CC1D2DE62C18E08300304CCB /* ApiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE52C18E08300304CCB /* ApiErrors.swift */; };
+		CC1D2DE82C18E3D800304CCB /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2DE72C18E3D800304CCB /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CC1D2DD82C18D9A100304CCB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		CC1D2DDB2C18D9C100304CCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CC1D2DDD2C18D9D700304CCB /* HomeViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModal.swift; sourceTree = "<group>"; };
+		CC1D2DE02C18DC1900304CCB /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		CC1D2DE22C18DCED00304CCB /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		CC1D2DE52C18E08300304CCB /* ApiErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrors.swift; sourceTree = "<group>"; };
+		CC1D2DE72C18E3D800304CCB /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		CC1D2DB92C18CAEE00304CCB /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC1D2DDF2C18DBB800304CCB /* API */,
 				CC1D2DD72C18D96D00304CCB /* Extensions */,
 				CC1D2DD62C18D96600304CCB /* Components */,
 				CC1D2DD42C18D93D00304CCB /* Views */,
@@ -105,6 +114,25 @@
 				CC1D2DDD2C18D9D700304CCB /* HomeViewModal.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		CC1D2DDF2C18DBB800304CCB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2DE42C18E07100304CCB /* APIErrors */,
+				CC1D2DE02C18DC1900304CCB /* Weather.swift */,
+				CC1D2DE22C18DCED00304CCB /* WeatherService.swift */,
+				CC1D2DE72C18E3D800304CCB /* Services.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CC1D2DE42C18E07100304CCB /* APIErrors */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2DE52C18E08300304CCB /* ApiErrors.swift */,
+			);
+			path = APIErrors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,10 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1D2DE32C18DCED00304CCB /* WeatherService.swift in Sources */,
+				CC1D2DE82C18E3D800304CCB /* Services.swift in Sources */,
+				CC1D2DE62C18E08300304CCB /* ApiErrors.swift in Sources */,
 				CC1D2DDC2C18D9C100304CCB /* HomeView.swift in Sources */,
 				CC1D2DD92C18D9A100304CCB /* Color+Extension.swift in Sources */,
 				CC1D2DBB2C18CAEE00304CCB /* WeatherAppApp.swift in Sources */,
 				CC1D2DDE2C18D9D700304CCB /* HomeViewModal.swift in Sources */,
+				CC1D2DE12C18DC1900304CCB /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
